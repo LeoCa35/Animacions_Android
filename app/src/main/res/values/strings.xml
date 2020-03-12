@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tasca2_Animacions</string>
+    <string name="FadeIn">Fade In</string>
+    <string name="ZoomIn">Zoom In</string>
+    <string name="LeftRight">Left Right</string>
+    <string name="Bounce">Bounce</string>
+    <string name="Rotate">Rotate</string>
+    <string name="FadeOut">Fade Out</string>
+    <string name="ZoomOut">Zoom Out</string>
+    <string name="TopBottom">Top Bottom</string>
+    <string name="Flash">Flash</string>
+    <string name="Several">Several</string>
+    <string name="TextoBajoImagen">Running</string>
+    <string name="Speed">Speed</string>
+</resources>

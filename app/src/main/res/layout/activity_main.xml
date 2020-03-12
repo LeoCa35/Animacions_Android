@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="209dp"
+        android:layout_height="276dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665">
+
+        <Button
+            android:id="@+id/FadeIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/FadeIn" />
+
+        <Button
+            android:id="@+id/ZoomIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ZoomIn" />
+
+        <Button
+            android:id="@+id/LeftRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LeftRight" />
+
+        <Button
+            android:id="@+id/Bounce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Bounce" />
+
+        <Button
+            android:id="@+id/Rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Rotate" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="196dp"
+        android:layout_height="277dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665">
+
+        <Button
+            android:id="@+id/FadeOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/FadeOut" />
+
+        <Button
+            android:id="@+id/ZoomOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ZoomOut" />
+
+        <Button
+            android:id="@+id/TopBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TopBottom" />
+
+        <Button
+            android:id="@+id/Flash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Flash" />
+
+        <Button
+            android:id="@+id/Several"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Several" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="102dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125"
+        app:srcCompat="@drawable/pelota" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextoBajoImagen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="257dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="74dp"
+        android:layout_height="37dp"
+        android:text="@string/Speed"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
